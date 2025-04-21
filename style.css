@@ -1,0 +1,81 @@
+.body{
+    background: linear-gradient(to right, #1a1a1b, hwb(253 22% 26%));
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    
+}
+
+  
+@keyframes gradientBG {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.split{
+    height: 100%;
+    top: 0;
+    z-index: 1;
+    overflow-x: scroll;
+    position: fixed;
+    overflow-y: auto;
+}
+
+
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
+    width: calc(100% - 200px);
+    
+    
+}
+
+.bar{
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.691);
+   color: #f1f1f1;
+   padding: 20px;
+   width: 305px;
+   overflow-anchor: scroll;
+   
+}
+.btn{
+   padding-top: 5px;
+   padding-bottom: 5px;
+   background: none;
+   color: white;
+   border-style: groove;
+   width: 250px;
+   text-align: left; 
+   border-color:#5f85f5;
+   border-radius: 5px;
+}
+
+
+.btn:hover{
+    background-color: white;
+    color: rgb(85, 34, 204);
+    transition: 0.3s;
+}
+.text{
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.projectdiv{
+    border-style: groove;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.691);
+    border-color: #3d63d2;
+    text-align: center;
+    color: white;
+    margin-right: 15px;
+}
+ 
