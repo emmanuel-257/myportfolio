@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Emmanuel Juma Okoth – Personal Portfolio
 
 Welcome to my personal portfolio website. This space reflects who I am—an innovative software developer, audio engineer, and founder of Versatech Innovations Company. I'm passionate about solving real-world problems using technology and creativity, especially in the fields of fintech, blockchain, and sound design.
@@ -56,3 +57,7 @@ Or drop me an email directly: `yourname@email.com`
 ---
 
 Built with ❤️ by Emmanuel Juma Okoth
+=======
+# myportfolio
+This is a prototype of my portfolio
+>>>>>>> c1eedf05b60791521c1aa78a88d7fd094a4cfead
